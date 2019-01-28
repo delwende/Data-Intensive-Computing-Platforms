@@ -1,0 +1,9 @@
+[0m[[0m[31merror[0m] [0m[0m/home/eliane/Desktop/labs/lab2/src/hellospark/TwitterAnalysis1.scala:38:43: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : ((String, String), Int)[0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0mval result3= result2.reduce((x, y) => x + y)[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/eliane/Desktop/labs/lab2/src/hellospark/TwitterAnalysis1.scala:39:18: value map is not a member of ((String, String), Int)[0m
+[0m[[0m[31merror[0m] [0m[0mval r4 = result3.map { case ((name, food), total) => (name, (food, total)) }[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
